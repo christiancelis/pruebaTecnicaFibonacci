@@ -18,7 +18,7 @@ public class Serie {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @Column(name = "horaactual", columnDefinition = "VARCHAR(100)")
+    @Column(name = "horaactual", columnDefinition = "VARCHAR(255)")
     public String hora;
 
     public String serieFibonachi;
